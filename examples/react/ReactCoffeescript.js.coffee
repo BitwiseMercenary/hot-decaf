@@ -1,11 +1,14 @@
 React = require('react')
-ReactDOM = require('react-dom')
-{div, h1} = ReactDOM
-class Rows extends React.Component
+ReactDom = require('react-dom-factories')
+createReactClass = require('create-react-class')
+{div, h1} = ReactDom
+
+Rows = createReactClass
   render: ->
     div
-      className: 'rows'
+      className: 'col-md-12'
       h1
         className: 'title'
         'Rows'
-module.exports = React.createFactory Rows
+
+export default Rows
