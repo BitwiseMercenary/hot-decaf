@@ -1,6 +1,6 @@
 ### Coffeemorph
 
-A library for take a single coffeescript file, transpiling the code, then returning
+A library for taking a single coffeescript file, transpiling it, then returning
 the result as a module. A cleaning function is also returned to remove the transpiled
 code if desired.
 
