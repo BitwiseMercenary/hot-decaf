@@ -5,4 +5,4 @@ the result as a module. A cleaning function is also returned to remove the trans
 code if desired.
 
 The examples `/examples` directory contains references for ways to use
-the `morph` function.
+the `brew` function.
