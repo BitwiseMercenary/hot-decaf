@@ -1,7 +1,7 @@
 {
   "name": "hot-coffee-loader",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hot load coffee modules as JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,6 +9,10 @@
   },
   "author": "Robert Mercado",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DarkseidOmega/hot-coffee-loader.git"
+  },
   "dependencies": {
     "coffeescript": "^2.5.1",
     "through2": "^4.0.2"
