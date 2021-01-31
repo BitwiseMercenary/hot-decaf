@@ -1,5 +1,5 @@
 {
-  "name": "hot-coffee-loader",
+  "name": "hot-decaf",
   "version": "1.0.0",
   "description": "Hot load coffee modules as JavaScript",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:DarkseidOmega/hot-coffee-loader.git"
+    "url": "git@github.com:DarkseidOmega/hot-decaf.git"
   },
   "dependencies": {
     "coffeescript": "^2.5.1",
