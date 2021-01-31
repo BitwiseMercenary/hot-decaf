@@ -1,7 +1,7 @@
-### Hot Coffee Loader
+### Hot Decaf
 
-A library for taking a single coffeescript file, transpiling it, then returning
-the result as a module. A cleaning function is also returned to remove the transpiled
+Make some hot decaf right now. A library for decaffeinating coffeescript files, transpiling it, then returning
+the result as a module. A cleaning closure is also returned to remove the transpiled
 code if desired.
 
 The examples `/examples` directory contains references for ways to use
