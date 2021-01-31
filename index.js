@@ -3,7 +3,7 @@ const nodepath = require("path");
 const through = require("through2");
 const coffee = require("coffeescript");
 
-const morph = async (path) => {
+const brew = async (path) => {
   const { dir, base } = nodepath.parse(path);
 
   const output = `${dir}/${base}.coffeemorph.js`;
@@ -48,5 +48,5 @@ const morph = async (path) => {
 };
 
 module.exports = {
-  morph
+  brew
 };

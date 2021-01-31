@@ -1,11 +1,11 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
-const { morph } = require("../../index.js");
+const { brew } = require("../../index.js");
 
 describe("Example Test Suite", () => {
   test("Example Unit Test 1", async () => {
-    const { modules, clean } = await morph("examples/jest-react/ReactCoffeescript.js.coffee");
+    const { modules, clean } = await brew("examples/jest-react/ReactCoffeescript.js.coffee");
     const Component = modules.default;
 
     const { queryByTestId, queryByText } = render(<Component />);

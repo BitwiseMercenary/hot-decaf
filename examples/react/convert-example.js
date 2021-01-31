@@ -1,7 +1,7 @@
-const { morph } = require("../../index.js");
+const { brew } = require("../../index.js");
 
 const main = async () => {
-  const { modules, clean } = await morph("examples/react/ReactCoffeescript.js.coffee");
+  const { modules, clean } = await brew("examples/react/ReactCoffeescript.js.coffee");
   console.log({ modules });
 
   clean();
