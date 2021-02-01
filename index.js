@@ -6,7 +6,7 @@ const coffee = require("coffeescript");
 const brew = async (path) => {
   const { dir, base } = nodepath.parse(path);
 
-  const output = `${dir}/${base}.coffeemorph.js`;
+  const output = `${dir}/${base}.decaf.js`;
   const writeToFile = fs.createWriteStream(output);
   const transform = new Promise(resolve => {
     fs.createReadStream(path)
